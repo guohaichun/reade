@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="js/swiper.min.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/newbook.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/newbook.css">
+</head>
+<body>
+<div class="body-box">
+    <div class="header">
+    </div>
+    <div class="h-cut">
+        <div class="Tab-Control">
+            <ul class="Tab-m">
+                <li class="Tab active">
+                    <a href="#">
+                        精选
+                    </a>
+                    <span>SELECTED</span>
+                </li>
+                <div class="line">
+                    <div class="Dot-top"></div>
+                    <div class="vertical-line"></div>
+                    <div class="Dot-bottom"></div>
+                </div>
+                <li class="Tab">
+                    <a href="#">
+                        榜单
+                    </a>
+                    <span>LIST</span>
+                </li>
+                <div class="line">
+                    <div class="Dot-top"></div>
+                    <div class="vertical-line"></div>
+                    <div class="Dot-bottom"></div>
+                </div>
+                <li class="Tab">
+                    <a href="#">
+                        分类
+                    </a>
+                    <span>CLASSIFY</span>
+                </li>
+            </ul>
+        </div>
+        <div class="sousuo">
+        </div>
+    </div>
+    <div class="body">
+        <!--精选部分-->
+        <div>
+            <div class="Tab-body">
+               1
+            </div>
+        </div>
+        <!--分类部分-->
+        <div>
+            <div class="Tab-body">
+                2
+            </div>
+        </div>
+        <div>
+            <div class="Tab-body">
+                3
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        loop: true,
+        autoplay:'autoplayDisableOnInteraction',
+        autoplay : 2000,
+        autoplayDisableOnInteraction : false,
+        pagination : '.swiper-pagination'
+    })
+</script>
+</html>

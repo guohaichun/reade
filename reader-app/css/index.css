@@ -1,0 +1,408 @@
+.header{
+    width:100%;
+    height:1.4rem;
+    background:#29a6dc;
+    position:fixed;
+    z-index:99999;
+
+}
+.Tab-Control{
+    width:5.71rem;
+    height:0.84rem;
+    border-radius:0.4rem 0.4rem 0.4rem 0.4rem ;
+    background:#2a3441;
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    bottom:0.08rem;
+    z-index:999;
+}
+.Tab-Control .Tab-m{
+    width:auto;
+    float: left;
+    margin-left:0.16rem;
+}
+.Tab-Control .Tab{
+     width:1.5rem;
+     height:0.65rem;
+     border-radius:0.4rem;
+     background:#2a3441;
+     color:#FFF;
+     text-align: center;
+     line-height: 0.5rem;
+     float: left;
+     margin-top:0.075rem;
+
+ }
+.Tab-Control .Tab a{
+    height:0.24rem;
+    display: block;
+    font-size:12px;
+    color:#FFF;
+
+}
+.Tab-Control .Tab span{
+    display: block;
+    font-size:8px;
+    color:#FFF;
+}
+.body{
+    width:100%;
+    height:13.47rem;
+}
+.Tab-body{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:1.4rem;
+    left:0;
+}
+.line{
+    width:2px;
+    height:0.5rem;
+    float: left;
+    margin-left:0.18rem;
+    margin-right:0.18rem;
+    margin-top:0.15rem;
+    position: relative;
+}
+.line .Dot-top{
+    width:3px;
+    height:3px;
+    background:#FFF;
+    border-radius:50%;
+    position: absolute;
+    top:0;
+    left:-1px;
+}
+.line .Dot-bottom{
+    width:3px;
+    height:3px;
+    background:#FFF;
+    border-radius:50%;
+    position:absolute;
+    bottom:0;
+    left:-1px;
+
+}
+.line .vertical-line{
+    width:1px;
+    float:left;
+    height:0.5rem;
+    background:#FFF;
+}
+.sousuo{
+    width:0.45rem;
+    height:0.45rem;
+    float: right;
+    background:url(../images/sousuo.png) no-repeat;
+    background-size:cover;
+    z-index:10;
+    position: absolute;
+    right:0.25rem;
+    top:0.65rem;
+}
+.banner-box{
+    width:100%;
+    height:4rem;
+}
+.swiper-container {
+    width: 100%;
+    height:4.82rem;
+}
+.banner-img{
+    width:100%;
+    height:100%;
+}
+.banner-img img{
+background-size:100%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    top:3.6rem;
+    left: 0;
+    width: 100%;
+    height: 0.02rem;
+    z-index:99999;
+}
+.swiper-pagination-bullet{
+    width:0.1rem;
+    height:0.1rem;
+    margin-left:0.2rem;
+    margin-top:2rem;
+}
+.bd-container{
+    width:100%;
+    height:2.7rem;
+    margin-top:.4rem;
+    background:blue;
+    background:url(../images/bj1.png) no-repeat;
+}
+.bd-left{
+    float:left;
+    font-size:6px;
+    color:#fff;
+    margin-left:0.5rem;
+    margin-top:0.3rem;
+    text-align: center;
+    letter-spacing:-0.01rem;
+}
+.bd-right{
+    float: right;
+    margin-right:0.5rem;
+}
+ .bd-top2{
+     font-size:8px;
+    color:#fff;
+}
+.bd-top2 p{
+    font-size:8px;
+}
+.jx-newarrival{
+    width:100%;
+    height:8rem;
+    float: left;
+    position:absolute;
+    top:6.22rem;
+    left:0;
+    z-index:99;
+    background:#fff;
+}
+.jx-title{
+    width:100%;
+    height:1rem;
+    font-size:12px;
+    background:#fff;
+}
+.jx-font{
+ width:3rem;
+ height:100%;
+position: relative;
+
+}
+.jx-font span{
+    float:left;
+    margin-left:0.4rem;
+    margin-top:0.18rem;
+}
+.jx-font .p1{
+    font-size:10px;
+    float:left;
+    margin-left:0.15rem;
+    margin-top:0.22rem;
+}
+
+.jx-font .p2{
+    font-size:10px;
+    float:left;
+    margin-left:0.2rem;
+}
+.jx-jz{
+    width:1rem;
+    height:3px;
+    position:absolute;
+    top:0.4rem;
+    left:1.5rem;
+
+}
+.jx-jz li{
+    width:2px;
+    height:2px;
+    border-radius: 50%;
+    float:right;
+    margin-right:0.03rem;
+
+}
+.jx-jz li:nth-child(1){
+    background:#ffc63e;
+}
+.jx-jz li:nth-child(2){
+    background:#58fedd;
+}
+.jx-jz li:nth-child(3){
+    background:#fe58ab;
+
+}
+.jx-container{
+    width:100%;
+    height:auto;
+}
+.shuji-one{
+    width:1.8rem;
+    height:3.5rem;
+    overflow: hidden;
+    float: left;
+    margin-left:0.51rem;
+}
+.shuji-two{
+    width:1.8rem;
+    height:3.5rem;
+    overflow: hidden;
+    float: left;
+    margin-left:0.51rem;
+    margin-right:0.51rem;
+}
+.shuji-three{
+    width:1.8rem;
+    height:3.5rem;
+    overflow: hidden;
+    float: left;
+    margin-right:0.51rem;
+}
+.shuji-four{
+    width:1.8rem;
+    height:3.5rem;
+    overflow: hidden;
+    float: left;
+    margin-left:0.51rem;
+    margin-top:0.2rem;
+
+}
+.shuji-fire{
+    width:1.8rem;
+    height:3.5rem;
+    overflow: hidden;
+    float: left;
+    margin-left:0.51rem;
+    margin-right:0.51rem;
+    margin-top:0.2rem;
+
+}
+.shuji-six{
+    width:1.8rem;
+    height:3.5rem;
+    overflow: hidden;
+    float: left;
+    margin-right:0.51rem;
+    margin-top:0.2rem;
+}
+.shuji-one a{
+    width:100%;
+    height:3.4rem;
+    float:left;
+}
+.shuji{
+     width:100%;
+     height:2.54rem;
+     background:url(../images/shuji.png) no-repeat;
+     background-size: 100%;
+ }
+.shuji1{
+    width:100%;
+    height:2.54rem;
+    background:url(../images/shuji1.png) no-repeat;
+    background-size: 100%;
+}
+.shuji-one p{
+    font-size:12px;
+}.shuji-two p{
+     font-size:12px;
+ }
+.shuji-three p{
+    font-size:12px;
+}
+.shuji-four p{
+    font-size:12px;
+}.shuji-fire p{
+     font-size:12px;
+ }
+.shuji-six p{
+    font-size:12px;
+}
+.menu-f-lyz{
+    width:100%;
+    height:0.98rem;
+    position: fixed;
+    left:0;
+    bottom:0;
+    background:#151C2B;
+    overflow:hidden;
+    z-index:999;
+}
+.footer-box{
+    width:100%;
+    height:1.32rem;
+    position:absolute;
+    top:14.22rem;
+    left:0;
+}
+.menu-f-lyz div{
+    width:33%;
+    height:100%;
+    float: left;
+    padding:0.1rem 0rem;
+    text-align: center;
+}
+.menu-f-lyz div:nth-child(1),.menu-f-lyz div:nth-child(2){
+    border-right:1px solid #717171;
+    border-height:0.95rem;
+}
+.menu-f-lyz div a{
+    display:block;
+    font-size:0.4rem;
+    color:#6A6A6B;
+}
+.menu-f-lyz div p{
+    font-size:0.22rem;
+    color:#6A6A6B;
+    margin-top:0.11rem;
+}
+
+.fl{
+    width:100%;
+    height:19.23rem;
+}
+.fl .wlwx{
+    width:100%;
+    height:9rem;
+
+}
+.wlwx-title{
+    width:100%;
+    height:0.6rem;
+    background:#ace1f8;
+    box-shadow: #ccc;
+    font-size:12px;
+}
+.wlwx-title .wlwx-img{
+    width:0.48rem;
+    height:0.43rem;
+    float: left;
+    background:url(../images/wlwx.png) no-repeat;
+    background-size: 100%;
+    margin-left:0.45rem;
+    margin-top:0.12rem;
+    box-shadow:#000;
+}
+.wlwx-title p{
+    float:left;
+    margin-top:0.13rem;
+}
+.girle-area {
+    width: 100%;
+    height: 4rem;
+    color: #29a6dc;
+    font-size:16px;
+}
+.girle-area ul{
+    width:80%;
+    display: flex;
+    margin:0 auto;
+    padding:0 0.5rem;
+    justify-content: space-between;
+}
+.girle-area ul li{
+    width:2px;
+    height:2px;
+    border-radius:50%;
+    background:#999;
+}
+
+
+
+
+
+
+
+
+
